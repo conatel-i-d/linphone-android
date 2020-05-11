@@ -33,6 +33,7 @@ public class PushNotificationUtils {
 
         if (push_type.equals("firebase")) {
             String className = "org.linphone.firebase.FirebasePushHelper";
+            android.util.Log.i("FirebaseIdService", "PublicNotificationUtils");
             try {
                 Class pushHelper = Class.forName(className);
                 Class[] types = {};

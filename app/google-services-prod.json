@@ -34,35 +34,6 @@
           ]
         }
       }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:67372818822:android:63dbbf81bfc5541173cc07",
-        "android_client_info": {
-          "package_name": "click.conatest.linphone.debug"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "67372818822-4fpg98pktddt5sbqf3rctvf7vjst91lu.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB_BBbMTzRrSwEbGxXyX2uevkgKTsTLhYs"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "67372818822-4fpg98pktddt5sbqf3rctvf7vjst91lu.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
     }
   ],
   "configuration_version": "1"

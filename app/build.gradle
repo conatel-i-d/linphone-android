@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 static def getPackageName() {
-    return "org.linphone"
+    return "click.conatest.linphone"
 }
 
 static def firebaseEnabled() {
-    File googleFile = new File('app/google-services.json')
+    File googleFile = new File('app/google-services-prod.json')
     return googleFile.exists()
 }
 

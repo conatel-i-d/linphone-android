@@ -143,6 +143,7 @@ public class LinphoneManager implements SensorEventListener {
                 };
 
         Log.i("[Manager] Registering phone state listener");
+        Log.i("[Manager] Registering phone state listener - Reloaded");
         mTelephonyManager.listen(mPhoneStateListener, PhoneStateListener.LISTEN_CALL_STATE);
 
         mHasLastCallSasBeenRejected = false;

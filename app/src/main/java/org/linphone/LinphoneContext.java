@@ -204,6 +204,7 @@ public class LinphoneContext {
 
     public void start(boolean isPush) {
         Log.i("[Context] Starting, push status is ", isPush);
+        android.util.Log.i("FirebaseMessaging", "[Context] Starting, push status is " + isPush);
         mLinphoneManager.startLibLinphone(isPush, mListener);
 
         mNotificationManager.onCoreReady();
